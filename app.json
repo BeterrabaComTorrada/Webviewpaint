@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "f6105d5b-2373-4af1-b87b-4189dc7ee034"
+      }
+    },
+    "android": {
+      "package": "com.kauarafael.paint1"
+    }
+  }
+}

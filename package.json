@@ -1,0 +1,23 @@
+{
+  "name": "paint1",
+  "version": "0.0.1",
+  "description": "teste web previer",
+  "main": "App.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeterrabaComTorrada/Webviewpaint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeterrabaComTorrada/Webviewpaint/issues"
+  },
+  "homepage": "https://github.com/BeterrabaComTorrada/Webviewpaint#readme",
+  "dependencies": {
+    "expo": "^50.0.6",
+    "react-native-webview": "^13.7.1"
+  }
+}
