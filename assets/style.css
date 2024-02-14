@@ -14,7 +14,7 @@
   #myCanvas
   {
       border-width:10px;
-      background-color: rgb(255, 255, 255); 
+      background-color: rgb(150, 122, 122); 
       border-style:ridge;
   }
 
@@ -30,3 +30,4 @@
   {
     margin-right: 20px;
   }
+  
