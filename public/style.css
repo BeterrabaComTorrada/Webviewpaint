@@ -2,7 +2,9 @@
 
   body{
     cursor: pointer;
+    
   }
+  
   h1
   {
       color: red; 
@@ -12,19 +14,288 @@
   {
       border-width:10px;
       background-color: rgb(150, 122, 122); 
-      border-style:ridge;
+      background-color: transparent;
+      border-style:none;
+      margin-top: 37px;
+      margin-left: 79px;
+      z-index: 9999;
   }
-
-  button {
-    background-color: #4CAF50;
+  
+  #pencilButton {
+    background-image: url("assets/btnPincel.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
     border: none;
-    color: white;
-    padding: 10px 42px;
-    font-size: 16px;
-  }
+    cursor: pointer;
+    margin-right: 10px;
+    background-position: top;
+    border-radius: 50%;
+    position: absolute;
+    bottom:248px;
+    left: 32px;
+}
+
+#sprayButton {
+    background-image: url("assets/btnSpray.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    background-position: top;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 188px;
+    left: 32px;
+}
+
+#eraserButton {
+    background-image: url("assets/btnBorracha.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    background-position: top;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 68px;
+    left: 32px;
+}
+
+#bucketButton {
+    background-image: url("assets/btnBalde.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    background-position: top;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 128px;
+    left: 32px;
+}
+
 
   input
   {
     margin-right: 20px;
   }
+  #downloadButton {
+    background-image: url("assets/btnDownload.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    background-position: top;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 330px;
+    left: 32px;
+}
+#voltarButton {
+  background-image: url("assets/btnVoltar.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  background-position: top;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 495px;
+  left: 32px;
+}
+#somButton {
+  background-image: url("assets/btnSom.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  background-position: top;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 440px;
+  left: 32px;
+}
+#homeButton {
+  background-image: url("assets/btnHome.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  background-position: top;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 385px;
+  left: 32px;
+}
+
+#redButton {
+  width: 70px; 
+  height: 70px; 
+  background-image: url("assets/Vermelho.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 555px;
+  left: 165px; 
+  
+}
+
+#greenButton {
+  width: 70px; 
+  height: 70px; 
+  background-image: url("assets/Verde.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 557px;
+  left: 246px; 
+}
+
+#colorButton {
+  width: 70px; 
+  height: 70px; 
+  background-image: url("assets/Amarelo.png"); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 556px;
+  left: 327px; 
+}
+
+#purpleButton {
+  width: 70px; 
+  height: 70px; 
+  background-image: url("assets/Roxo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 554px;
+  left: 408px;
+}
+
+#blueButton {
+  width: 70px; 
+  height: 70px; 
+  background-image: url("assets/Azul.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 553px;
+  left: 489px; 
+}
+
+#orangeButton {
+  width: 70px; 
+  height: 70px; 
+  background-image: url("assets/Laranja.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 557px;
+  left: 570px; 
+}
+
+#brownButton {
+  width: 70px; 
+  height: 70px; 
+  background-image: url("assets/Marrom.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 555px;
+  left: 651px;
+}
+
+#whiteButton {
+  width: 70px; 
+  height: 70px; 
+  background-image: url("assets/Branco.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 554px;
+  left: 732px; 
+}
+
+
+#blackButton {
+  width: 70px; 
+  height: 70px; 
+  background-image: url("assets/Preto.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 557px;
+  left: 813px; 
+}
+#redButton:focus,
+#greenButton:focus,
+#colorButton:focus,
+#purpleButton:focus,
+#blueButton:focus,
+#orangeButton:focus,
+#brownButton:focus,
+#whiteButton:focus,
+#blackButton:focus {
+  outline: none;
+  width: calc(70px * 1.12);
+  height: calc(70px * 1.12);
+}
+#widthOfLine {
+  writing-mode: bt-lr; 
+  -webkit-appearance: slider-vertical; 
+  width: 1px; 
+  height: 155px; 
+  position: absolute;
+  top: 370px;
+  left: 101px;
+}
+
+
+
+
+
+
   

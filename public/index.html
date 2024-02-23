@@ -11,10 +11,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         .bodyBackground {
-          background-image: url('assets/cenarioBg.png');
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
+            background-image: url('assets/quadroBg.png');
+            background-size: 111%;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 900px;
+            height: 625px;
         }
     </style>
 </head>
@@ -22,29 +24,38 @@
 <body class="bodyBackground">
 
     <div align="center">
-
-        <h1>Paint Web Responsivo</h1>
-
-        <canvas id="myCanvas" width="800" height="400"></canvas>
-
-        <br><br>
-
-        <span>Cor - </span>
-        <input type="text" id="color" value="Pink">
-
-        <span>Espessura da Linha - </span>
-        <input type="text" id="widthOfLine" value="5">
-
+        <canvas id="myCanvas" width="931" height="543"></canvas>
     </div>
 
-    <button id="pencilButton">Pincel</button>
-    <button id="sprayButton">Spray</button>
-    <button id="eraserButton">Borracha</button>
-    <button id="bucketButton">Balde</button>
+    
+    <button id="pencilButton" class="icon-button" type="button" title="Pincel"></button>
+    <button id="sprayButton" class="icon-button" type="button" title="Spray"></button>
+    <button id="eraserButton" class="icon-button" type="button" title="Borracha"></button>
+    <button id="bucketButton" class="icon-button" type="button" title="Balde"></button>
+    <button id="downloadButton" class="icon-button" type="button" title="Download"></button>
+    <button id="homeButton" class="icon-button" type="button" title="Home"></button>
+    <button id="somButton" class="icon-button" type="button" title="Som"></button>
+    <button id="voltarButton" class="icon-button" type="button" title="Voltar"></button>
+    <button id="colorButton" type="button" aria-label="Botão Amarelo"></button>
+    <button id="blackButton" type="button" aria-label="Botão Preto"></button>
+    <button id="whiteButton" type="button" aria-label="Botão Branco"></button>
+    <button id="orangeButton" type="button" aria-label="Botão Laranja"></button>
+    <button id="redButton" type="button" aria-label="Botão Vermelho"></button>
+    <button id="purpleButton" type="button" aria-label="Botão Roxo"></button>
+    <button id="blueButton" type="button" aria-label="Botão Azul"></button>
+    <button id="greenButton" type="button" aria-label="Botão Verde"></button>
+    <button id="brownButton" type="button" aria-label="Botão Marrom"></button>
 
-    <!-- HAHAHAHAHAH -->
+    <label for="color" style="display: none;"></label>
+    <input type="color" id="color" value="#000000" aria-label="Escolha uma cor">
+    
+    <label for="widthOfLine">Espessura da Linha:</label>
+    <input type="range" id="widthOfLine" value="1" min="1" max="16">
+
 
     <script src="main.js"></script>
+    <script src="tintas.js"></script>
+    <script src="download.js"></script>
 
 </body>
 
